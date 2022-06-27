@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include networking *.css
+recursive-include networking *.csv
+recursive-include networking *.html
+recursive-include networking *.ico
+recursive-include networking *.js
+recursive-include networking *.json
+recursive-include networking *.md
+recursive-include networking *.png
+recursive-include networking *.py
+recursive-include networking *.svg
+recursive-include networking *.txt
+recursive-exclude networking *.pyc
