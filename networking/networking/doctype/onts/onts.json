@@ -1,0 +1,121 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:ont_desc",
+ "creation": "2022-06-27 16:04:21.628153",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "olts",
+  "ont_frame",
+  "ont_slot",
+  "ont_port",
+  "ont_number",
+  "ont_serv_port",
+  "ont_column",
+  "ont_down",
+  "ont_up",
+  "ont_desc",
+  "ont_serial",
+  "ont_mac"
+ ],
+ "fields": [
+  {
+   "fieldname": "olts",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "OLT",
+   "options": "OLTs",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ont_frame",
+   "fieldtype": "Data",
+   "label": "OLT Frame"
+  },
+  {
+   "fieldname": "ont_slot",
+   "fieldtype": "Data",
+   "label": "OLT Slot"
+  },
+  {
+   "fieldname": "ont_port",
+   "fieldtype": "Data",
+   "label": "OLT Port"
+  },
+  {
+   "fieldname": "ont_number",
+   "fieldtype": "Data",
+   "label": "OLT Number"
+  },
+  {
+   "fieldname": "ont_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ont_serial",
+   "fieldtype": "Data",
+   "label": "ONT Serial"
+  },
+  {
+   "fieldname": "ont_serv_port",
+   "fieldtype": "Data",
+   "label": "OLT Service Port"
+  },
+  {
+   "fieldname": "ont_desc",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Client Description",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "ont_mac",
+   "fieldtype": "Data",
+   "label": "ONT MAC"
+  },
+  {
+   "fieldname": "ont_down",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Download Speed",
+   "options": "200\n400\n600",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ont_up",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Upload Speed",
+   "options": "200\n400\n600",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-27 16:46:47.128266",
+ "modified_by": "Administrator",
+ "module": "Networking",
+ "name": "ONTs",
+ "name_case": "Title Case",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
